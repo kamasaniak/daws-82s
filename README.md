@@ -1,2 +1,3 @@
-# daws-82s
-shell script 
+#! /bin/bash
+
+echo "hello world!"
