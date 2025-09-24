@@ -2,7 +2,7 @@
 
 validate() {
   # treat a missing/empty first arg as failure
-  if [ "${1:-1}" -ne 0 ]; then
+  if [ "${1:-1}" -ne 0 ]; 
     echo >&2 "$2 ...FAILURE (exit code: ${1:-unknown})"
     exit 1
   else
